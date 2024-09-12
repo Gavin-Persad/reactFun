@@ -3,6 +3,7 @@ import Counter from "./components/counter";
 import DadJoke from "./components/dad-joke.js";
 import FocusInput from "./components/focus-input";
 import ExpensiveCalculation from "./components/expensive-calculation";
+import WeatherComponent from "./components/weather.js";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <DadJoke/>
       <FocusInput/>
       <ExpensiveCalculation/>
+      <WeatherComponent/>
     </main>
   );
 }
