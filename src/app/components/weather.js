@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react';
 
-const apiKey = process.env.API_KEY;
+const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+console.log('API Key:', apiKey);
 
 function WeatherComponent() {
 	const [location, setLocation] = useState('');
